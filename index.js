@@ -30,13 +30,4 @@ document.addEventListener("scroll", function () {
     scrollToTopButton.style.visibility = "hidden";
   }
 });
-
-usernameInput.addEventListener("change", function (event) {
-  const value = event.target.value;
-  if (value.length < 3) {
-    usernameError.innerHTML =
-      "Username-ul trebuie sa contina minim 3 caractere.";
-  } else {
-    usernameError.innerHTML = "";
-  }
 });
