@@ -24,7 +24,7 @@ scrollToTopButton.addEventListener("click", function () {
   });
 });
 document.addEventListener("scroll", function () {
-  if (window.scrollY > 100) {
+  if (window.scrollY > window.innerHeight / 2) {
     scrollToTopButton.style.visibility = "visible";
   } else {
     scrollToTopButton.style.visibility = "hidden";
