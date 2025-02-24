@@ -30,4 +30,4 @@ document.addEventListener("scroll", function () {
     scrollToTopButton.style.visibility = "hidden";
   }
 });
-});
+
